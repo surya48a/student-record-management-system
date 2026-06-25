@@ -1,30 +1,35 @@
 # Student Record Management System
 
-A menu-driven Student Record Management System developed in C.
+## Overview
+A menu-driven Student Record Management System developed in C using Linked Lists, File Handling, Multi-file Programming, and Makefile.
 
 ## Features
-- Add student record
-- Delete student record
-- Modify student record
-- Display records
-- Sort by name
-- Sort by roll number
-- Sort by percentage
-- Reverse linked list
+- Add new student records
+- Delete records by roll number
+- Delete records by name
+- Modify existing records
+- Display all records
+- Sort records
+- Reverse records
 - Save records using file handling
 
-## Concepts Used
-- Linked List
+## Technologies Used
+- C Programming
+- Linked List Data Structure
 - File Handling
-- Structures
-- Dynamic Memory Allocation
 - Multi-file Programming
 - Makefile
+- Linux (Ubuntu)
 
-## Build
+## How to Run
 
 make
-
-## Run
-
 ./exe
+
+## Learning Outcomes
+- Dynamic Memory Allocation
+- Linked List Operations
+- File Handling
+- Modular Programming
+- Makefile Usage
+- Git & GitHub
