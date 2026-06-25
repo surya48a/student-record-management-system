@@ -78,6 +78,7 @@ void main()
 					  {
 						  printf("\n\033[39;1mN/n : Sort with Name\n");
 						  printf("P/p : Sort with Percentage\n");
+						  printf("r/R : Sort with Rollno\n");
 						  printf("Enter your choice:\n");
 						  scanf(" %c",&op);
 						  if(op=='N' || op=='n')
@@ -88,6 +89,11 @@ void main()
 						  else if(op=='P' || op=='p')
 						  {
 							  sortPercentage(hptr);
+							  break;
+						  }
+						  else if(op == 'r' || op == 'R')
+						  {
+							  sortRoll(hptr);
 							  break;
 						  }
 						  else
